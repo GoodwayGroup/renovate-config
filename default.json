@@ -1,0 +1,24 @@
+{
+    "semanticCommits": true,
+    "prHourlyLimit": 2,
+    "labels": ["dependencies"],
+    "rangeStrategy": "replace",
+    "node": {
+        "rangeStrategy": "update-lockfile"
+    },
+    "extends": [
+        "config:base",
+        ":pinAllExceptPeerDependencies"
+    ],
+    "schedule": [
+        "before 6pm every weekday",
+        "after 8am every weekday"
+    ],
+    "major": {
+        "labels": ["dependencies", "major"]
+    },
+    "minor": {
+        "labels": ["dependencies", "minor"]
+    }
+}
+

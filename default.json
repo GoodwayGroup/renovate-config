@@ -11,8 +11,7 @@
         ":pinAllExceptPeerDependencies"
     ],
     "schedule": [
-        "before 6pm every weekday",
-        "after 8am every weekday"
+        "after 8am every weekday and before 6pm every weekday"
     ],
     "major": {
         "labels": ["dependencies", "major"]

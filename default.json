@@ -11,13 +11,19 @@
         ":pinAllExceptPeerDependencies"
     ],
     "schedule": [
-        "after 8am every weekday and before 6pm every weekday"
+        "after 3am every day and before 10pm every day"
     ],
     "major": {
         "labels": ["dependencies", "major"]
     },
     "minor": {
         "labels": ["dependencies", "minor"]
-    }
+    },
+    "packageRules": [
+        {
+            "packageNames": ["aws-sdk", "eslint"],
+            "extends": ["schedule:weekly"]
+        }
+    ]
 }
 

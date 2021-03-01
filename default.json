@@ -8,7 +8,8 @@
     },
     "extends": [
         "config:base",
-        ":pinAllExceptPeerDependencies"
+        ":pinAllExceptPeerDependencies",
+        "group:allNonMajor"
     ],
     "schedule": [
         "after 3am every day and before 10pm every day"

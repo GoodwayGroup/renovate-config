@@ -6,6 +6,9 @@
     "node": {
         "rangeStrategy": "update-lockfile"
     },
+    "python": {
+        "rangeStrategy": "update-lockfile"
+    },
     "extends": [
         "config:base",
         ":pinAllExceptPeerDependencies",

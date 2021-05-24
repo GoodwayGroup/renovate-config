@@ -29,6 +29,10 @@
             "extends": ["schedule:weekly"]
         },
         {
+            "packageNames": ["dotenv", "dotenv-cli", "cross-env"],
+            "extends": ["schedule:monthly"]
+        },
+        {
             "packagePatterns": [ "^@goodwaygroup/" ],
             "groupName": "@goodwaygroup monorepo"
         }

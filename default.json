@@ -23,6 +23,9 @@
     "minor": {
         "labels": ["dependencies", "minor"]
     },
+    "vulnerabilityAlerts": {
+        "labels": ["dependencies", "security"]
+    },
     "packageRules": [
         {
             "packageNames": ["aws-sdk", "eslint"],

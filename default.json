@@ -1,5 +1,5 @@
 {
-    "enabled": false
+    "enabled": false,
     "semanticCommits": true,
     "prHourlyLimit": 2,
     "labels": ["dependencies"],
